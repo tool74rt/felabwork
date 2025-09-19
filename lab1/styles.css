@@ -1,4 +1,64 @@
 body
 {
-    background-color: aqua;
+    background-color: black;
+}
+header{
+   
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+h1{
+    font-size:25px;
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+    color: cornsilk
+}
+
+p
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    color:beige;
+    
+}
+
+ul{
+    color:beige;
+}
+
+a:link {
+  color: red;
+}
+
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+a:active {
+  color: blue;
+}
+
+
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: forestgreen;
+  color: white;
+  text-align: center;
 }
